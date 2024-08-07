@@ -317,7 +317,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
 			}
 		}, {
 			scheduled: true,
-			timezone: 'Asia/Kolkata'
+			timezone: 'Asia/Karachi'
 		})
 		
 		if (!XeonBotInc.public) {
@@ -966,10 +966,10 @@ quoted: m,
         }
         
 //time
-const xday = moment.tz('Asia/Kolkata').locale('en-IN').format('dddd');
-const xdate = moment.tz('Asia/Kolkata').locale('en-IN').format('DD/MM/YYYY');
-const xtime = moment().tz('Asia/Kolkata').locale('en-IN').format('HH:mm:ss');
-const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
+const xday = moment.tz('Asia/Karachi').locale('en-IN').format('dddd');
+const xdate = moment.tz('Asia/Karachi').locale('en-IN').format('DD/MM/YYYY');
+const xtime = moment().tz('Asia/Karachi').locale('en-IN').format('HH:mm:ss');
+const time2 = moment().tz('Asia/Karachi').format('HH:mm:ss')  
 if(time2 < "23:59:00"){
 var xeonytimewisher = `Good Night 🌌`
  }
@@ -13903,7 +13903,7 @@ break
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT REPLY 🐛",
+                "buttonParamsJson": `{"title":"SELECT REPLY",
 "sections":[{"title":"SELECT THE REPLY BELOW",
 "highlight_label":"OWNER'S FAVOURITE",
 "rows":[{"header":"CHANNEL + LINK THUMB",
@@ -15209,7 +15209,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
                 	let button = [{
 						name: 'single_select',
 						buttonParamsJson: {
-							title: 'SELECT 🌹',
+							title: 'SELECT',
 							sections: [{
 								title: 'BOT MODE',
 								rows: [
@@ -15219,7 +15219,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 							}]
 						}
 					}]
-                	await XeonBotInc.sendButtonMsg(m.chat, 'BOT MODE', xeonytimewisher, 'Please choose 🌹', null, button, m);
+                	await XeonBotInc.sendButtonMsg(m.chat, 'BOT MODE', xeonytimewisher, 'Please choose', null, button, m);
                 	}
                 }
                 break
@@ -16820,27 +16820,27 @@ break
 ├ *Time* : ${xtime}
 ╰─┬────❍
 ╭─┴❍「 *MENU* 」❍
-│${setv} ${prefix}allmenu
-│${setv} ${prefix}searchmenu
-│${setv} ${prefix}downloadmenu
-│${setv} ${prefix}gamemenu
-│${setv} ${prefix}funmenu
-│${setv} ${prefix}aimenu
-│${setv} ${prefix}groupmenu
-│${setv} ${prefix}ownermenu
-│${setv} ${prefix}convertmenu
-│${setv} ${prefix}listmenu
-│${setv} ${prefix}religionmenu
-│${setv} ${prefix}animemenu
-│${setv} ${prefix}nsfwmenu
-│${setv} ${prefix}randomphotomenu
-│${setv} ${prefix}randomvideomenu
-│${setv} ${prefix}stickermenu
-│${setv} ${prefix}databasemenu
-│${setv} ${prefix}storemenu
-│${setv} ${prefix}stalkermenu
-│${setv} ${prefix}bugmenu
-│${setv} ${prefix}othermenu
+│${prefix}allmenu
+│${prefix}searchmenu
+│${prefix}downloadmenu
+│${prefix}gamemenu
+│${prefix}funmenu
+│${prefix}aimenu
+│${prefix}groupmenu
+│${prefix}ownermenu
+│${prefix}convertmenu
+│${prefix}listmenu
+│${prefix}religionmenu
+│${prefix}animemenu
+│${prefix}nsfwmenu
+│${prefix}randomphotomenu
+│${prefix}randomvideomenu
+│${prefix}stickermenu
+│${prefix}databasemenu
+│${prefix}storemenu
+│${prefix}stalkermenu
+│${prefix}bugmenu
+│${prefix}othermenu
 ╰──────❍`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
@@ -17132,7 +17132,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"MENU 🌺",
+`{"title":"MENU",
 "sections":[{"title":"${botname}",
 "rows":[{"header":"ALL MENU",
 "title":"click to display",
@@ -17223,27 +17223,27 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                "buttonParamsJson": `{"display_text":"Owner","id":"${prefix}owner"}`
               },
               {
                 "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                "buttonParamsJson": `{"display_text":"Script","id":"${prefix}script"}`
               }
            ],
           }),
