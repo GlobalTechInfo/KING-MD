@@ -26,13 +26,13 @@ global.themeemoji = '🪀'
 global.wm = "Xeon Bot Inc."
 global.botscript = 'https://github.com/DGXeon/CheemsBot-MD13' //script link
 global.packname = "Sticker By"
-global.author = "🦄드림 가이 Xeon\n\n+923051391007"
-global.creator = "923051391007@s.whatsapp.net"
+global.author = "🦄드림 가이 Xeon\n\n+916909137213"
+global.creator = "916909137213@s.whatsapp.net"
 global.xprefix = '.'
 global.premium = ["923051391007"] // Premium User
 
 //bot sett
-global.typemenu = 'v11' // menu type 'v1' => 'v12'
+global.typemenu = 'v12' // menu type 'v1' => 'v12'
 global.typereply = '4' // reply type 'v1' => 'v4'
 global.autoblocknumber = '94' //set autoblock country code
 global.antiforeignnumber = '91' //set anti foreign number country code
