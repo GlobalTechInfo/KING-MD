@@ -18,7 +18,7 @@ global.location = "India, Mizoram, Aizawl" //ur location
 
 //new
 global.botname = 'Cheems Bot MD V15' //ur bot name
-global.ownernumber = ['916909137213'] //ur owner number, dont add more than one
+global.ownernumber = ['923051391007'] //ur owner number, dont add more than one
 global.ownername = '🦄드림 가이 Xeon' //ur owner name
 global.websitex = "https://youtu.be/Ljt4MaHq1LM"
 global.wagc = "https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20"
@@ -26,14 +26,14 @@ global.themeemoji = '🪀'
 global.wm = "Xeon Bot Inc."
 global.botscript = 'https://github.com/DGXeon/CheemsBot-MD13' //script link
 global.packname = "Sticker By"
-global.author = "🦄드림 가이 Xeon\n\n+916909137213"
-global.creator = "916909137213@s.whatsapp.net"
+global.author = "🦄드림 가이 Xeon\n\n+923051391007"
+global.creator = "923051391007@s.whatsapp.net"
 global.xprefix = '.'
-global.premium = ["916909137213"] // Premium User
+global.premium = ["923051391007"] // Premium User
 
 //bot sett
 global.typemenu = 'v11' // menu type 'v1' => 'v12'
-global.typereply = '1' // reply type 'v1' => 'v4'
+global.typereply = '4' // reply type 'v1' => 'v4'
 global.autoblocknumber = '94' //set autoblock country code
 global.antiforeignnumber = '91' //set anti foreign number country code
 
